@@ -1,9 +1,24 @@
 header {
-    margin-left: 15px;
+    margin-left: 25px;
     margin-right: 25px;
 }
+
+header p {
+    font-size: 14px;
+
+}
+
+main p {
+    font-size: 14px;
+
+}
+
 body {
-    background-color: #00000
+    background-color: #e0d6d6;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+
 }
 
 h1 {
@@ -11,7 +26,7 @@ h1 {
     font-weight: lighter;
     padding-top: 25px;
     padding-bottom: 25px;
-    background-color: #9b42f4;
+    background-color: #663bb6;
 
 }
 
@@ -24,8 +39,7 @@ h4 {
 ul {
     font-family: sans-serif;
     font-weight: normal;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 5px;
 
 }
 
@@ -35,13 +49,13 @@ li {
     padding-left: 10px;
 
 }
-img{
+img {
     height: 300px;
     width: 400px;
 
 }
 
-p{
+p {
     font-family: Tahoma;
 
 }
@@ -53,3 +67,21 @@ section {
     padding-right: 50px; 
 }
 
+#ital {
+    font-style: italic;
+    font-weight: strong;
+
+}
+
+.bold {
+    font-style: oblique;
+
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+}
